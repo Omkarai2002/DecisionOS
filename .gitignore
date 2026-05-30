@@ -1,0 +1,122 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# IDE / Editor Files
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# Python Build Files
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Testing / Coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Database Files
+# -----------------------------
+*.sqlite3
+*.db
+
+# -----------------------------
+# LangGraph / Agent State
+# -----------------------------
+checkpoints/
+state_store/
+memory_store/
+
+# -----------------------------
+# ChromaDB / Vector DB
+# -----------------------------
+chroma_db/
+chromadb/
+vector_store/
+
+# -----------------------------
+# Temporary Files
+# -----------------------------
+tmp/
+temp/
+*.tmp
+
+# -----------------------------
+# OS Generated Files
+# -----------------------------
+Desktop.ini
+
+# -----------------------------
+# Secrets / Credentials
+# -----------------------------
+secrets.json
+credentials.json
+service-account.json
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+
+# -----------------------------
+# FastAPI
+# -----------------------------
+*.pid
+
+# -----------------------------
+# Node (for future frontend)
+# -----------------------------
+node_modules/
+.next/
+dist/
+
+# -----------------------------
+# Local Config
+# -----------------------------
+local_settings.py
