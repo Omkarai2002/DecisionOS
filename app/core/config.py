@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     APP_NAME: str
     ENVIRONMENT: str
-
+    DATABASE_URL: str
     OPENAI_API_KEY: str
     OPENAI_MODEL: str
 
